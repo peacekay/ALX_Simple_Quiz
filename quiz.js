@@ -12,9 +12,9 @@ function checkAnswer() {
   console.log(userAnswer)
 
   if (userAnswer === correctAnswer) {
-    feedbackElement.textContent = "correct! well done.";
+    feedbackElement.textContent = "Correct! Well done.";
   } else {
-    feedbackElement.textContent = "That's incorrect, Try again";
+    feedbackElement.textContent = "That's incorrect. Try again!";
   }
   
 }
